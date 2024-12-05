@@ -18,3 +18,4 @@
 # c=a+b
 # print(c)
 import matplotlib.pyplot as plt
+c = 1
