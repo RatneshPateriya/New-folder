@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 df=pd.read_csv("C:\\Users\\HP\\Downloads\\carprices (1).csv")
 print(df)
 print()
-# plt.scatter(df['Mileage'],df['Age(yrs)'])
-# plt.show()
-# print()
-# plt.scatter(df['Mileage'],df['Sell Price($)'])
-# plt.show()
+plt.scatter(df['Mileage'],df['Age(yrs)'])
+plt.show()
+print()
+plt.scatter(df['Mileage'],df['Sell Price($)'])
+plt.show()
 x=df[['Mileage','Age(yrs)']]
 y=df['Sell Price($)']
 
